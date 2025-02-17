@@ -157,5 +157,72 @@ h3{
     backdrop-filter: blur(10px);
 }
 
+@media (max-width: 768px) {
+    .wrapper {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .result {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    p, h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input {
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .result {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    p, h3 {
+        font-size: 14px;
+    }
+}
 
 
