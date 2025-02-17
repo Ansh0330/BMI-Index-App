@@ -118,7 +118,7 @@ h3{
 }
 
 .underweight { 
-    margin-top: 25px;
+    margin-top: 5px;
     padding: 15px;
     border-radius: 10px;
     background: #f4a261;
@@ -131,7 +131,7 @@ h3{
     backdrop-filter: blur(10px);
 }
 .normal {
-    margin-top: 25px;
+    margin-top: 5px;
     padding: 15px;
     border-radius: 10px;
     background: #43cea2;
@@ -144,7 +144,7 @@ h3{
     backdrop-filter: blur(10px);
 }
 .overweight { 
-    margin-top: 25px;
+    margin-top: 5px;
     padding: 15px;
     border-radius: 10px;
     background: #ff5f6d;
