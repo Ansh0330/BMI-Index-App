@@ -7,9 +7,11 @@ btn.addEventListener('click',()=>{
     const weightVal = parseInt(weightInput.value);
     const result = document.querySelector('#result')
     if(heightVal === '' || heightVal <= 0 || isNaN(heightVal)) {
-        result.innerHTML = `Please enter the valid height ${heightVal}`
+        result.innerHTML = `Please enter the valid height`;
+        result.classList.add('result');
     } else if(weightVal === '' || weightVal <= 0 || isNaN(weightVal)){
-        result.innerHTML = `Please enter the valid weight ${weightVal}`
+        result.innerHTML = `Please enter the valid weight`
+        
     }else{
         let bmi = (weightVal / ((heightVal**2)/10000)).toFixed(2);
         result.innerHTML = `Your BMI : ${bmi}`;
